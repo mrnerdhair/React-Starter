@@ -1,29 +1,26 @@
 import React from "react"
-import TodoItem from "./TodoItem"
-import todosData from "./todosData"
+/*import Contact from "./Contact";*/
+/*import Navbar from "./Navbar"*/
+/*import Hero from "./Hero"*/
+/*import Card from "./Card"*/
+import Joke from "./Joke";
+import jokesData from "./jokesData";
 
-class App extends React.Component {
-    state = {
-            todos: todosData
-        }
-       
-        this.handleChange = this.handleChange.bind(this);
+
+export default function App() {
+    return (
+        <div>
+        <Joke
+         />
+
+constfunnies = joke.map(jokesData) => {return `<p>${jokesData}</p>`}
     
-    
-    handleChange(id) {
-        // Update state so that the item with the given id flips `completed` from false to true (or vise versa)
-        // Remember not to modify prevState directly, but instead to return a new version of state with the change you want included in that update. (Think how you might use the `.map` method to do this)
-    }
-    
-    render() {
-        const todoItems = this.state.todos.map(item => <TodoItem key={item.id} item={item}/>)
-        
-        return (
-            <div className="todo-list">
-                {todoItems}
-            </div>
-        )    
-    }
+      
+           
+           
+           
+           
+
+        </div>
+    )
 }
-
-export default App

@@ -2,6 +2,7 @@ body {
   background-color: whitesmoke;
 }
 
+
 .todo-list {
   background-color: white;
   margin: auto;
@@ -44,4 +45,7 @@ input[type=checkbox] {
 
 input[type=checkbox]:focus {
   outline: 0;
+}
+.hello {
+  color: blue;
 }
