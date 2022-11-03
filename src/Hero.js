@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "./images/diagram.png"
+import img1 from "./images/Kollmorgen.png"
 class Hero extends React.Component{
 
 
@@ -14,13 +14,12 @@ class Hero extends React.Component{
 
 
             
-            
-            <section className="hero">
+            <div> className="overlay" style={{background: 'url(${img1})'}}/>
+            </div>
+            /*<section className="hero">
             <img src= {img1} alt="" /> 
-            <h1 className="hero--header">Online Experiences</h1>
-            <p className="hero--text">Join unique interactive activities led by 
-            one-of-a-kind hosts—all without leaving home.</p>
-        </section>
+           
+        </section>*/
             
             
             

@@ -1,10 +1,12 @@
 import React from "react"
-import Oracleimage from "./Oracleimage"
+import Header1 from "./Header1"
+import Motorselect from "./Motorselect"
+
 
 
 
 export default function App() {
-    const [motorState, setMotorState] = React.useState("");
+    
  
 
 
@@ -14,56 +16,16 @@ export default function App() {
     
 
 
- <div>
-   <Oracleimage/>
-     </div>
-  
- <div className ="motor">
-    <select 
-    className="custom-select" 
-    value={motorState}
-    onChange={(e)=>{
-    const selectedMotor=e.target.value;
-    setMotorState(selectedMotor);
-    }}
-   >
-        <option value="AC">AC for International std Mount</option>
-        <option value="AN">AN International Std Mount</option>
-        <option value="CC">CC for alt std mount, closed key</option>
-    </select>
-        {motorState}
+<div className="Oraclepic">
+   <Header1/>
+   
+
+   <Motorselect/>
+   
+
+   </div>
 
 
-
-    <select 
-    className="custom-select" 
-    value={motorState}
-    onChange={(e)=>{
-    const selectedMotor=e.target.value;
-    setMotorState(selectedMotor);
-    }}
-   >
-        <option value="AC">AC for International std Mount</option>
-        <option value="AN">AN International Std Mount</option>
-        <option value="CC">CC for alt std mount, closed key</option>
-    </select>
-        {motorState}
-
-        
-    <select 
-    className="custom-select" 
-    value={motorState}
-    onChange={(e)=>{
-    const selectedMotor=e.target.value;
-    setMotorState(selectedMotor);
-    }}
-   >
-        <option value="cccccccccccccc">AC for International std Mount</option>
-        <option value="AN">AN International Std Mount</option>
-        <option value="CC">CC for alt std mount, closed key</option>
-    </select>
-        {motorState}
-  </div>
     )
 }
      
