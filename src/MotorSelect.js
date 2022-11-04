@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Motorselect() {
+export default function MotorSelect() {
   const [motorState, setMotorState] = React.useState({});
 
   function handleChange(event) {
@@ -14,7 +14,7 @@ export default function Motorselect() {
   }
 
   return (
-    <div>
+    <div className="motorSelect">
       <form>
         <div className="Selection-section">
           <label className="mount-option" htmlFor="mountOption">

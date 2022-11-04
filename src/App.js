@@ -1,15 +1,14 @@
 import React from "react";
-import Header1 from "./Header1";
-import Motorselect from "./Motorselect";
+import OracleImage from "./OracleImage";
+import MotorSelect from "./MotorSelect";
 
 /*derp*/
 
 export default function App() {
   return (
     <div className="Oraclepic">
-      <Header1 />
-
-      <Motorselect />
+      <OracleImage />
+      <MotorSelect />
     </div>
   );
 }
