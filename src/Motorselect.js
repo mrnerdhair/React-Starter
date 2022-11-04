@@ -24,12 +24,24 @@ export default function Motorselect() {
             <select
               class="select 1"
               id="mountOption"
+              value={motorState.windingOption}
+              onChange={handleChange}
+              name="mountOption"
+            >
+              <option value="AKM23C">AKM23C </option>
+              <option value="AKM23D">AKM23D </option>
+            </select>
+          </div>
+          <div>
+            <select
+              class="select 1"
+              id="mountOption"
               value={motorState.mountOption}
               onChange={handleChange}
               name="mountOption"
             >
-              <option value="AC">AKM23C </option>
-              <option value="AN">AKM23D </option>
+              <option value="AC">AC </option>
+              <option value="AN">AN </option>
             </select>
           </div>
           <div>
@@ -39,9 +51,9 @@ export default function Motorselect() {
               onChange={handleChange}
               name="connectorOption"
             >
-              <option value="AC">AC </option>
-              <option value="AN">AN </option>
-              <option value="CC">CC </option>
+              <option value="C">C dual connector </option>
+              <option value="9">9 single connector</option>
+          
             </select>
           </div>
 
@@ -52,8 +64,8 @@ export default function Motorselect() {
               onChange={handleChange}
               name="brakeOption"
             >
-              <option value="C">CC hyperface</option>
-              <option value="D">G for resolver</option>
+              <option value="N">N for no brake</option>
+              <option value="2">2 for brake</option>
             </select>
           </div>
           <div>
@@ -64,7 +76,7 @@ export default function Motorselect() {
               name="feedbackOption"
             >
               <option value="C">CC hyperface</option>
-              <option value="D">G for resolver</option>
+              <option value="R">R for resolver</option>
             </select>
           </div>
           <div>
@@ -74,13 +86,13 @@ export default function Motorselect() {
               onChange={handleChange}
               name="shaftSealOption"
             >
-              <option value="C">CC hyperface</option>
-              <option value="D">G for resolver</option>
+              <option value="00">00 for no shaft seal</option>
+              <option value="01">01 for shaft seal</option>
             </select>
           </div>
         </div>
       </form>
-      { <div> {motorState.connectorOption} {motorState.mountOption} {motorState.brakeOption}</div> }
+      { <div> {motorState.windingOption}{motorState.connectorOption} {motorState.mountOption} {motorState.brakeOption} {motorState.shaftSealOption}</div> }
       <div>
          
       </div>
