@@ -16,13 +16,13 @@ export default function Motorselect() {
   return (
     <div>
       <form>
-        <div class="Selection-section">
-          <label class="mount-option" htmlFor="mountOption">
+        <div className="Selection-section">
+          <label className="mount-option" htmlFor="mountOption">
             Select your motor
           </label>
           <div>
             <select
-              class="select 1"
+              className="select 1"
               id="mountOption"
               value={motorState.windingOption}
               onChange={handleChange}
@@ -34,7 +34,7 @@ export default function Motorselect() {
           </div>
           <div>
             <select
-              class="select 1"
+              className="select 1"
               id="mountOption"
               value={motorState.mountOption}
               onChange={handleChange}
