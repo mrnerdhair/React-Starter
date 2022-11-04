@@ -23,10 +23,10 @@ export default function Motorselect() {
           <div>
             <select
               className="select 1"
-              id="mountOption"
+              id="windingOption"
               value={motorState.windingOption}
               onChange={handleChange}
-              name="mountOption"
+              name="windingOption"
             >
               <option value="AKM23C">AKM23C </option>
               <option value="AKM23D">AKM23D </option>
@@ -46,7 +46,7 @@ export default function Motorselect() {
           </div>
           <div>
             <select
-              id="mountOption"
+              id="connectorOption"
               value={motorState.connectorOption}
               onChange={handleChange}
               name="connectorOption"
@@ -58,7 +58,7 @@ export default function Motorselect() {
 
           <div>
             <select
-              id="connectorOption"
+              id="brakeOption"
               value={motorState.brakeOption}
               onChange={handleChange}
               name="brakeOption"
@@ -69,7 +69,7 @@ export default function Motorselect() {
           </div>
           <div>
             <select
-              id="connectorOption"
+              id="feedbackOption"
               value={motorState.feedbackOption}
               onChange={handleChange}
               name="feedbackOption"
@@ -80,7 +80,7 @@ export default function Motorselect() {
           </div>
           <div>
             <select
-              id="connectorOption"
+              id="shaftSealOption"
               value={motorState.shaftSealOption}
               onChange={handleChange}
               name="shaftSealOption"
