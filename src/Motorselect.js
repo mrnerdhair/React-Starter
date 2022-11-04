@@ -28,8 +28,8 @@ export default function Motorselect() {
               onChange={handleChange}
               name="windingOption"
             >
-              <option value="AKM23C">AKM23C </option>
-              <option value="AKM23D">AKM23D </option>
+              <option value="AKM23C">AKM23C</option>
+              <option value="AKM23D">AKM23D</option>
             </select>
           </div>
           <div>
@@ -40,8 +40,8 @@ export default function Motorselect() {
               onChange={handleChange}
               name="mountOption"
             >
-              <option value="AC">AC </option>
-              <option value="AN">AN </option>
+              <option value="AC">AC</option>
+              <option value="AN">AN</option>
             </select>
           </div>
           <div>
@@ -51,7 +51,7 @@ export default function Motorselect() {
               onChange={handleChange}
               name="connectorOption"
             >
-              <option value="C">C dual connector </option>
+              <option value="C">C dual connector</option>
               <option value="9">9 single connector</option>
             </select>
           </div>
