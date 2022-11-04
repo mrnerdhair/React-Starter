@@ -53,7 +53,6 @@ export default function Motorselect() {
             >
               <option value="C">C dual connector </option>
               <option value="9">9 single connector</option>
-          
             </select>
           </div>
 
@@ -92,10 +91,15 @@ export default function Motorselect() {
           </div>
         </div>
       </form>
-      { <div> {motorState.windingOption}{motorState.connectorOption} {motorState.mountOption} {motorState.brakeOption} {motorState.shaftSealOption}</div> }
-      <div>
-         
-      </div>
+      {
+        <div>
+          {" "}
+          {motorState.windingOption}
+          {motorState.connectorOption} {motorState.mountOption}{" "}
+          {motorState.brakeOption} {motorState.shaftSealOption}
+        </div>
+      }
+      <div></div>
     </div>
   );
 }

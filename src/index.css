@@ -5,67 +5,59 @@ body {
   background-size: cover;
   min-height: 100vh;
   background-position: center center;
-  
-  
-  font-family: Inter, sans-serif;/*-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+
+  font-family: Inter, sans-serif; /*-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;*/
-  
 }
 
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .Selection-section {
-
-
-margin-left: 2rem;
-font-size: 2rem;
-background:none;
-
-
-
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
 }
 
-.mount-option{
+.mount-option {
   height: 70px;
   display: flex;
- 
+
   padding: 20px 36px;
 }
 
 nav {
   height: 70px;
   display: flex;
- 
+
   padding: 20px 36px;
 }
 .bold {
   font-weight: bold;
 }
 .gray {
-  color: #918E9B;
+  color: #918e9b;
 }
 
 nav > h3 {
   margin-right: auto;
-  color: #61DAFB;
+  color: #61dafb;
   font-weight: 700;
 }
-nav > h3, nav > h4 {
+nav > h3,
+nav > h4 {
   margin: 0;
 }
 
 nav > h4 {
-  color: #DEEBF8;
+  color: #deebf8;
   font-weight: 600;
 }
-
 
 nav > img {
   height: 80px;
@@ -76,19 +68,15 @@ nav > img {
 }
 
 .Motorselect {
-
-  
-  
-    width: 100px;
-    height: 100px;
-    border-radius: 60%;
-    overflow: hidden;
-    text-align: center;
-    justify-content: center;
-    margin: 0;
-    grid-column-start: 1; /*Add this*/
-    grid-column-end: 4; /*Add this*/
-
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  grid-column-start: 1; /*Add this*/
+  grid-column-end: 4; /*Add this*/
 }
 section {
   padding: 20px;
@@ -118,7 +106,6 @@ section {
   display: flex;
   align-items: center;
 }
-
 
 .card--star {
   height: 14px;
